@@ -22,6 +22,7 @@ class Kernel
             new \bios\SarelvdWaltBio(),
             new \bios\SacheenDhanjieBio(),
             new \bios\RoscoevanWykBio(),
+            new \bios\LeePelserBio(),
         );
     }
 
