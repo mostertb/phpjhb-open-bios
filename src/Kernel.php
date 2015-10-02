@@ -19,6 +19,7 @@ class Kernel
         $this->bios = array(
             new \bios\BradMostertBio(),
             new \bios\JohnathanDellBio(),
+	    new \bios\SacheenDhanjieBio(),
         );
     }
 
