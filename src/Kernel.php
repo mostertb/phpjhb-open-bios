@@ -20,6 +20,7 @@ class Kernel
             new \bios\BradMostertBio(),
             new \bios\JohnathanDellBio(),
             new \bios\SarelvdWaltBio()
+	    new \bios\SacheenDhanjieBio(),
         );
     }
 
