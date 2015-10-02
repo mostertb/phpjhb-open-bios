@@ -53,7 +53,8 @@ $kernel = new Kernel();
                 ?>
                 <div class="media">
                     <div class="media-left">
-                        <a href="#">
+
+                        <a name="<?php echo $bio->getSlug(); ?>">
                             <img class="media-object" width="64" height="64" src="<?php echo $bio->getProfileImageURL(); ?>" alt="<?php echo $fullname;?>">
                         </a>
                     </div>
