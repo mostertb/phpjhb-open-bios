@@ -21,7 +21,8 @@ $kernel = new Kernel();
         <div class="col-md-12">
             <h1>PHP Craft 2015 Johannesburg Attendee Bios</h1>
             <h2>About</h2>
-            <p>Someone decided that it would be a good idea to have a competition at PHP Craft Johannesburg Conference 2015.
+            <p>Someone decided that it would be a good idea to have a competition at
+                <a href="http://phpsouthafrica.com/" target="_blank">PHP Craft Johannesburg Conference 2015</a>.
                 Any attendee can enter by submitting a Pull Request... to any open source project. So we created a project :)</p>
 
             <p>Please note that this page was made as a joke and should not be taken seriously.</p>
