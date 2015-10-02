@@ -24,6 +24,14 @@ $kernel = new Kernel();
             <p>So someone decided that it would be a good idea to enter in to a competition any attendee who makes a submits a Pull Request (to any open source
                 project). This is one of the side effects.</p>
 
+            <div class="alert alert-success" role="alert">
+                <p class="text-center">
+                    If you are interested in getting involved, please visit
+                    <a href="https://github.com/mostertb/phpjhb15-open-bios" target="_blank">our GitHub page</a>
+                </p>
+            </div>
+
+
             <h2>Contents</h2>
             <div class="list-group">
                 <?php
