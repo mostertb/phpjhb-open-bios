@@ -22,3 +22,6 @@ Add your new Bio class to the construction of the Kernel
 
 ### Step Four
 Submit Pull Request. Most will get accepted
+
+### Step Five
+PROFIT $$
