@@ -1,6 +1,10 @@
 # phpjhb15-open-bios
 This is a  joke project for attendees of the PHP Craft 2015 Johannesburg to submit more pull requests
 
+# View this project online
+
+The mester branch is regularly rolled out to production. It can be viewed online at http://phpjhb15.sinkwa.com/
+
 ## Instructions 
 
 ### Step One
