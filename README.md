@@ -5,7 +5,7 @@ Someone decided that it would be a good idea to have a competition at PHP Craft 
 
 # View this project online
 
-The mester branch is regularly rolled out to production. It can be viewed online at http://phpjhb15.sinkwa.com/
+The master branch is regularly rolled out to production. It can be viewed online at http://phpjhb15.sinkwa.com/
 
 ## Instructions 
 
