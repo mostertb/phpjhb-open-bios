@@ -23,7 +23,7 @@ class SarelvdWaltBio extends AbstractBio
      */
     public function getDescription()
     {
-        return '<script>alert("EVIL")</script>';
+        return htmlspecialchars('<script>alert("EVIL")</script>');
     }
 
     /**
