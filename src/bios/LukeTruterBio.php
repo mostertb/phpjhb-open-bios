@@ -33,7 +33,7 @@ class LukeTruterBio extends AbstractBio
      */
     public function getProfileImageURL()
     {
-        return 'goo.gl/8klzIi';
+        return 'http://i.imgur.com/HnY3dpt.jpg';
     }
 
 }
