@@ -1,6 +1,6 @@
 <?php
 
-namespace bios;
+namespace mostertb\PhpJhbOpenBios\bios;
 
 
 class BradMostertBio extends AbstractBio
@@ -23,8 +23,8 @@ class BradMostertBio extends AbstractBio
      */
     public function getDescription()
     {
-        return 'Renegade that makes projects like this to mess with the status quo. I like long walks on the beach and '.
-            'craft beer.';
+        return 'Developer at Afrihost. Design Patterns acolyte. Dangerous sysadmin using \'DevOps\' as an excuse. I like '.
+            'long walks on the beach and craft beer.';
     }
 
     /**
@@ -34,8 +34,19 @@ class BradMostertBio extends AbstractBio
      */
     public function getProfileImageURL()
     {
-        return 'http://i.imgur.com/dv78K3h.jpg';
+        return 'https://s.gravatar.com/avatar/9ff2a97e7faf3529f1b78f1f737ebca0?s=80';
     }
 
+    public function getGitHubUsername()
+    {
+        return 'mostertb';
+    }
+
+    public function getMaintainedProjects()
+    {
+        return array(
+          'Afrihost/BaseCommandBundle' => 'https://github.com/afrihost/BaseCommandBundle'
+        );
+    }
 
 }

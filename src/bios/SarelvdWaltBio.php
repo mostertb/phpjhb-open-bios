@@ -3,7 +3,7 @@
 namespace mostertb\PhpJhbOpenBios\bios;
 
 
-class JohnathanDellBio extends AbstractBio
+class SarelvdWaltBio extends AbstractBio
 {
 
     /**
@@ -13,7 +13,7 @@ class JohnathanDellBio extends AbstractBio
      */
     public function getName()
     {
-        return 'Johnathan Dell';
+        return 'Sarel van der Walt';
     }
 
     /**
@@ -23,7 +23,7 @@ class JohnathanDellBio extends AbstractBio
      */
     public function getDescription()
     {
-        return 'Proponent of design philosophies and good development practises.';
+        return htmlspecialchars('<script>alert("EVIL")</script>');
     }
 
     /**
@@ -33,7 +33,7 @@ class JohnathanDellBio extends AbstractBio
      */
     public function getProfileImageURL()
     {
-        return 'https://cdn.afrihost.com/images/meet_the_team_new/dev_johnathan_d.jpg';
+        return 'http://i.imgur.com/kxIMxK1.jpg';
     }
 
 
