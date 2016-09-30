@@ -9,7 +9,7 @@ $kernel = new Kernel();
 <head>
     <meta charset="utf-8">
 
-    <title>PHP Craft 2015 Johannesburg Attendee Bios</title>
+    <title>PHP Craft Johannesburg Attendee Bios</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" ></script>
@@ -19,21 +19,62 @@ $kernel = new Kernel();
 <div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>PHP Craft 2015 Johannesburg Attendee Bios</h1>
+            <h1>PHP Craft Johannesburg Attendee Bios</h1>
+
             <h2>About</h2>
-            <p>Someone decided that it would be a good idea to have a competition at
-                <a href="http://phpsouthafrica.com/" target="_blank">PHP Craft Johannesburg Conference 2015</a>.
-                Any attendee can enter by submitting a Pull Request... to any open source project. So we created a project :)</p>
+            <p>
+                Once again this year, a core theme at the <a href="http://phpsouthafrica.com" target="_blank">PHP Craft 2016 Conference</a>
+                has been the importance of getting involved in OpenSource projects. This is why we have dusted off the old 'PHP Craft 2015 Open
+                Bios' once again.
+            </p>
 
-            <p>Please note that this page was made as a joke and should not be taken seriously.</p>
+            <p>
+                If you have been thinking about getting involved in OpenSource but the whole exercise seems daunting, we invite
+                you to sign up a <a href="https://github.com/" target="_blank">GitHub Account</a> and submit a
+                <a href="https://help.github.com/articles/about-pull-requests/" target="_blank">Pull Request</a> to the
+                the <a href="https://github.com/mostertb/phpjhb-open-bios">phpjhb-open-bios</a> project (the code that generates this
+                page) as a way to get you started.
+            </p>
 
-            <div class="alert alert-success" role="alert">
+            <h2>Why?</h2>
+            <p>
+                We will accept most Pull Requests and we even provide
+                <a href="https://github.com/mostertb/phpjhb-open-bios/blob/master/README.md">instructions</a> as to what to add
+                (other submissions are also welcome). The idea is to provide a safe environment in which to practice the
+                mechanics of contributing to a GitHub project in order to break down one more barrior between you and one
+                of the world's most addictive hobbies.
+            </p>
+
+            <div class="alert alert-danger" role="alert">
                 <p class="text-center">
-                    Anyone is welcome to submit a Pull request to the project - most will get accepted.
-                    If you are interested in getting involved, please visit
-                    <a href="https://github.com/mostertb/phpjhb15-open-bios" target="_blank">our GitHub page</a>
+                    <strong>Please Note:</strong> Submissions to this project do not count to the JetBrains License competition
+                    this year. See the 'History' section below for more details.
                 </p>
             </div>
+
+            <p>
+                Once you've gotten your feet wet by submitting your first pull request, we recommend that you go have a
+                look at Digital Ocean's <a href="https://hacktoberfest.digitalocean.com/" target="_blank">Hacktoberfest</a>
+                initiative
+            </p>
+
+
+
+            <h2>History</h2>
+            <p>
+                At the PHP Craft Conference 2015 the contributors of this project played a little joke.
+            </p>
+            <p>
+                The 2015 conference organisers had decided to hold a competition to win a
+                <a href="https://www.jetbrains.com/phpstorm/" target="_blank">JetBrains PHPStorm</a> license. To enter,
+                attendees simply had to submit a Pull Request... to any OpenSource project. So we created a project!
+            </p>
+            <p>
+                <strong>Everyone was disqualified... :)</strong>
+            </p>
+            <p>
+                This year we are trying to go legitimate to see if we can get away with it.
+            </p>
 
 
             <h2>Contents</h2>
