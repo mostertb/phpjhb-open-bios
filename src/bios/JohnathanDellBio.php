@@ -27,14 +27,28 @@ class JohnathanDellBio extends AbstractBio
     }
 
     /**
-     * Should return a publicly accessible URL to an image of the person that the bio is about.
-     *
-     * @return null|string
+     * @return string
      */
     public function getProfileImageURL()
     {
         return 'https://cdn.afrihost.com/images/meet_the_team_new/dev_johnathan_d.jpg';
     }
 
+    /**
+     * @return string
+     */
+    public function getGitHubUsername()
+    {
+        return 'johnathanmdell';
+    }
 
+    /**
+     * @return array
+     */
+    public function getMaintainedProjects()
+    {
+        return array(
+            'JohnathanMDell\Identity' => 'https://github.com/johnathanmdell/identity/'
+        );
+    }
 }
