@@ -29,6 +29,28 @@ abstract class AbstractBio
     }
 
     /**
+     * Should return the GitHub username of the person the bio is about. This is used to generate links to the person's
+     * OpenSource projects
+     *
+     * @return string
+     */
+    public function getGitHubUsername()
+    {
+        return '';
+    }
+
+    /**
+     * Optional function that should return an array of OpenSource projects maintained by this person. The index should
+     * contain the name of the project and the value should be a url to the project's homepage (typically a GitHub page)
+     *
+     * @return array
+     */
+    public function getMaintainedProjects()
+    {
+        return array();
+    }
+
+    /**
      * @return string
      */
     public function getSlug()

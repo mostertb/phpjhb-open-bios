@@ -22,7 +22,9 @@ Extend the `mostertb\PhpJhbOpenBios\bios\ios\AbstractBio` class as `mostertb\Php
 Implement the following methods:
 * getName()
 * getDescription()
+* getGitHubUsername()
 * getProfileImageURL() (optional)
+* getMaintainedProjects() (optional)
 
 ### Step Three
 Add your new Bio class to the construction of `mostertb\PhpJhbOpenBios\Kernel`

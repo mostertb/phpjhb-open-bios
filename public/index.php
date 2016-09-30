@@ -101,7 +101,30 @@ $kernel = new \mostertb\PhpJhbOpenBios\Kernel();
                     </div>
                     <div class="media-body">
                         <h4 class="media-heading"><?php echo $fullname; ?></h4>
-                        <?php echo $bio->getDescription(); ?>
+                        <p>
+                            <?php echo $bio->getDescription(); ?>
+                        </p>
+                        <?php
+                        if (!empty($bio->getGitHubUsername())){
+                            ?>
+                            <p>
+                                <strong>GitHub Homepage:</strong>
+                                <a href="https://github.com/"<?php echo $bio->getGitHubUsername(); ?>" target="_blank">
+                                <?php echo $bio->getGitHubUsername() ?>
+                                </a>
+                            </p>
+                        <?php
+                        } // end Github Homepage
+
+                        if(count($bio->getMaintainedProjects()) > 0){
+                            echo "<h5>Projects</h5>";
+                            echo "<ul>";
+                            foreach ($bio->getMaintainedProjects() as $name => $url){
+                                echo '<li><a href="'.$url.'" target="_blank">'.$name.'</a></li>';
+                            }
+                            echo "</ul>";
+                        } // end Maintained Projects
+                        ?>
                     </div>
                 </div>
 
