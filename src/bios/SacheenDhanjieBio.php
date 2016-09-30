@@ -23,7 +23,7 @@ class SacheenDhanjieBio extends AbstractBio
      */
     public function getDescription()
     {
-        return 'The ninja';
+        return 'The Brown Ninja';
     }
 
     /**
