@@ -3,6 +3,7 @@ namespace mostertb\PhpJhbOpenBios;
 
 use mostertb\PhpJhbOpenBios\bios\AbstractBio;
 use mostertb\PhpJhbOpenBios\bios\BradMostertBio;
+use mostertb\PhpJhbOpenBios\bios\ColinODellBio;
 use mostertb\PhpJhbOpenBios\bios\JohnathanDellBio;
 use mostertb\PhpJhbOpenBios\bios\JoshHaringtonBio;
 use mostertb\PhpJhbOpenBios\bios\LeePelserBio;
@@ -33,6 +34,7 @@ class Kernel
             new RoscoevanWykBio(),
             new LeePelserBio(),
             new LukeTruterBio(),
+            new ColinODellBio(),
         );
     }
 
