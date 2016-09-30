@@ -109,7 +109,7 @@ $kernel = new \mostertb\PhpJhbOpenBios\Kernel();
                             ?>
                             <p>
                                 <strong>GitHub Homepage:</strong>
-                                <a href="https://github.com/"<?php echo $bio->getGitHubUsername(); ?>" target="_blank">
+                                <a href="https://github.com/<?php echo $bio->getGitHubUsername();?>" target="_blank">
                                 <?php echo $bio->getGitHubUsername() ?>
                                 </a>
                             </p>
