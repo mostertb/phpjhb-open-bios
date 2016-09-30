@@ -4,6 +4,7 @@ namespace mostertb\PhpJhbOpenBios;
 use mostertb\PhpJhbOpenBios\bios\AbstractBio;
 use mostertb\PhpJhbOpenBios\bios\BradMostertBio;
 use mostertb\PhpJhbOpenBios\bios\JohnathanDellBio;
+use mostertb\PhpJhbOpenBios\bios\JoshHaringtonBio;
 use mostertb\PhpJhbOpenBios\bios\LeePelserBio;
 use mostertb\PhpJhbOpenBios\bios\RoscoevanWykBio;
 use mostertb\PhpJhbOpenBios\bios\SacheenDhanjieBio;
@@ -25,6 +26,7 @@ class Kernel
         $this->bios = array(
             new BradMostertBio(),
             new JohnathanDellBio(),
+            new JoshHaringtonBio(),
             new SarelvdWaltBio(),
             new SacheenDhanjieBio(),
             new RoscoevanWykBio(),

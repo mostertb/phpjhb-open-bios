@@ -42,7 +42,7 @@ for the JetBrains License Competition, but we'd appreciate the publicity as part
 PROFIT $$
 
 ## Where To Next
-Now that you are one more 'OpenSource' contribution stronger, why npt go have a look at Digital Ocean's 
+Now that you are one more 'OpenSource' contribution stronger, why not go have a look at Digital Ocean's 
 [Hacktoberfest](https://hacktoberfest.digitalocean.com/) initiative.
 
 Alternatively, have a look at the projects that the other contributors to PHPJHB Open Bios are involved in and go code
