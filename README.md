@@ -15,7 +15,7 @@ Fork this Repo
 
 ### Step Two
 
-Extend the `Bios\AbstractBio` class as \<YourName\>Bio
+Extend the `mostertb\PhpJhbOpenBios\bios\ios\AbstractBio` class as `mostertb\PhpJhbOpenBios\bios\<YourName>Bio`
 
 ### Step Three 
 
@@ -25,7 +25,7 @@ Implement the following methods:
 * getProfileImageURL() (optional)
 
 ### Step Three
-Add your new Bio class to the construction of the Kernel
+Add your new Bio class to the construction of `mostertb\PhpJhbOpenBios\Kernel`
 
 ### Step Four
 Submit Pull Request

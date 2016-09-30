@@ -1,7 +1,13 @@
 <?php
+namespace mostertb\PhpJhbOpenBios;
 
-
-use bios\AbstractBio;
+use mostertb\PhpJhbOpenBios\bios\AbstractBio;
+use mostertb\PhpJhbOpenBios\bios\BradMostertBio;
+use mostertb\PhpJhbOpenBios\bios\JohnathanDellBio;
+use mostertb\PhpJhbOpenBios\bios\LeePelserBio;
+use mostertb\PhpJhbOpenBios\bios\RoscoevanWykBio;
+use mostertb\PhpJhbOpenBios\bios\SacheenDhanjieBio;
+use mostertb\PhpJhbOpenBios\bios\SarelvdWaltBio;
 
 class Kernel
 {
@@ -17,17 +23,17 @@ class Kernel
     public function __construct()
     {
         $this->bios = array(
-            new \bios\BradMostertBio(),
-            new \bios\JohnathanDellBio(),
-            new \bios\SarelvdWaltBio(),
-            new \bios\SacheenDhanjieBio(),
-            new \bios\RoscoevanWykBio(),
-            new \bios\LeePelserBio(),
+            new BradMostertBio(),
+            new JohnathanDellBio(),
+            new SarelvdWaltBio(),
+            new SacheenDhanjieBio(),
+            new RoscoevanWykBio(),
+            new LeePelserBio(),
         );
     }
 
     /**
-     * @return \bios\AbstractBio[]
+     * @return AbstractBio[]
      */
     public function getBios()
     {

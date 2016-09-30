@@ -1,6 +1,6 @@
 <?php
 
-namespace bios;
+namespace mostertb\PhpJhbOpenBios\bios;
 
 
 class LeePelserBio extends AbstractBio
